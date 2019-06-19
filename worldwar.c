@@ -67,7 +67,7 @@ int main(){
 
 
 //Declaraciones de los pueblos
-	for(int i = 0; i<14; i++){ //Numero de pueblos
+	for(int i = 0; i<v.size(); i++){ //Numero de pueblos
 		pueblo pu;
 		pu.nom = v[i];
 		p.push_back(pu);
